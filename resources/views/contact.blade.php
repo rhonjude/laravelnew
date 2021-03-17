@@ -10,9 +10,8 @@
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
-  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="20" fill="white" class="bi bi-building" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022zM6 8.694L1 10.36V15h5V8.694zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15z"/>
-  <path d="M2 11h1v1H2v-1zm2 0h1v1H4v-1zm-2 2h1v1H2v-1zm2 0h1v1H4v-1zm4-4h1v1H8V9zm2 0h1v1h-1V9zm-2 2h1v1H8v-1zm2 0h1v1h-1v-1zm2-2h1v1h-1V9zm0 2h1v1h-1v-1zM8 7h1v1H8V7zm2 0h1v1h-1V7zm2 0h1v1h-1V7zM8 5h1v1H8V5zm2 0h1v1h-1V5zm2 0h1v1h-1V5zm0-2h1v1h-1V3z"/>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-bug" viewBox="0 0 16 16">
+  <path d="M4.355.522a.5.5 0 0 1 .623.333l.291.956A4.979 4.979 0 0 1 8 1c1.007 0 1.946.298 2.731.811l.29-.956a.5.5 0 1 1 .957.29l-.41 1.352A4.985 4.985 0 0 1 13 6h.5a.5.5 0 0 0 .5-.5V5a.5.5 0 0 1 1 0v.5A1.5 1.5 0 0 1 13.5 7H13v1h1.5a.5.5 0 0 1 0 1H13v1h.5a1.5 1.5 0 0 1 1.5 1.5v.5a.5.5 0 1 1-1 0v-.5a.5.5 0 0 0-.5-.5H13a5 5 0 0 1-10 0h-.5a.5.5 0 0 0-.5.5v.5a.5.5 0 1 1-1 0v-.5A1.5 1.5 0 0 1 2.5 10H3V9H1.5a.5.5 0 0 1 0-1H3V7h-.5A1.5 1.5 0 0 1 1 5.5V5a.5.5 0 0 1 1 0v.5a.5.5 0 0 0 .5.5H3c0-1.364.547-2.601 1.432-3.503l-.41-1.352a.5.5 0 0 1 .333-.623zM4 7v4a4 4 0 0 0 3.5 3.97V7H4zm4.5 0v7.97A4 4 0 0 0 12 11V7H8.5zM12 6a3.989 3.989 0 0 0-1.334-2.982A3.983 3.983 0 0 0 8 2a3.983 3.983 0 0 0-2.667 1.018A3.989 3.989 0 0 0 4 6h8z"/>
 </svg><a class="navbar-brand" href="/">College</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -42,33 +41,28 @@
     </div>
   </div>
 </nav>
-  <div class="container">
-  
-  <div class="row">
-  <div class="col col-12 col-md-4 col-lg-4 col-xxl-4"></div>
-  <div class="col col-12 col-md-4 col-lg-4 col-xxl-4">
-  <table class="table table-borderless">
-  <tr>
-      <td>name</td>
-      <td><input type="text" class="form-control"></td>
-  </tr>
-  <tr>
-      <td>roll.no</td>
-      <td><input type="text" class="form-control"></td>
-  </tr>
-  <tr>
-      <td>admno</td>
-      <td><input type="text" class="form-control"></td>
-  </tr>
-  <tr>
-      <td>college</td>
-      <td><input type="text" class="form-control"></td>
-  </tr>
-  <tr>
-      <td></td>
-      <td><button class="btn btn-danger">Submit</button></td>
-  </tr>
-  </table></div></div>
-  </div>  
+    <div class="container">
+    <div class="row">
+    <div class="col col-12 col-md-4 col-lg-4 col-xxl-4"></div>
+    <div class="col col-12 col-md-4 col-lg-4 col-xxl-4">
+    <table class="table">
+    <tr>
+        <td>Name</td>
+        <td><input type="text" class="form-control"></td>
+    </tr>
+    <tr>
+        <td>Message</td>
+        <td><input type="text" class="form-control"></td>
+    </tr>
+    <tr>
+        <td>Phone</td>
+        <td><input type="text" class="form-control"></td>
+    </tr>
+    <tr>
+        <td>Name</td>
+        <td><button class="btn btn-warning">Submit</button></td>
+    </tr>
+    </table>
+    </div></div></div>
 </body>
 </html>
